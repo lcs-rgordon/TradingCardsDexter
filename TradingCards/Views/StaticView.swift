@@ -39,7 +39,6 @@ struct StaticView: View {
                     }
                     
                     VStack {
-                        
                         Text("Put Charizard on the Stage 1 card")
                             .font(
                                 .system(size: 10)
@@ -58,7 +57,8 @@ struct StaticView: View {
                                     .bold()
                                 )
                             
-                             
+                             FireView()
+                                .frame(height: 200)
                             
                         }
                         
